@@ -1,3 +1,9 @@
+/*Interacts with a temperature sensor (input port) and a heater
+(output port) to moderate temperature.
+If temp falls below 98 degrees, heater is turned on
+If temp goes above 102 degrees, heater is turned off
+Program will also print L, -, or H depending on what 
+temperature it currently is with regard to the 2 bounds*/
 #include "nios2_control.h"
 
 #define TIMER0_STATUS (volatile unsigned int*) 0x5000
