@@ -15,6 +15,5 @@ The main program uses the valid bit to retrive the data and convert it to hex th
 (output port) to moderate temperature.
 If temp falls below 98 degrees, heater is turned on
 If temp goes above 102 degrees, heater is turned off
-Program will also print L, -, or H depending on what 
-temperature it currently is with regard to the 2 bounds</p>
+Program will also print L, -, or H depending on what temperature it currently is with regard to the 2 bounds</p>
 
