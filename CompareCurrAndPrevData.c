@@ -1,3 +1,8 @@
+/*Program uses 2 timers, one to cycle LEDs and one to tell
+main program to compare past and present inport values.
+Prints >, = or < based on comparison and updates a running
+count, sum and average of all inport values*/
+
 #include "nios2_control.h"
 
 #define TIMER0_STATUS (volatile unsigned int*) 0x5000
