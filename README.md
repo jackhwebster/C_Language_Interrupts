@@ -1,6 +1,6 @@
 C language code for the NIOS II processor that uses IO interrupts to perform a given function. These files have been created by Jack Webster using the template.c file provided by N. Manjikian.
 
-* *
+--
 
 **16bitInportAndOutport.C**
 Program uses a 0.5s timer to toggle the first 8 bits of the output port that control 8 LEDs.
