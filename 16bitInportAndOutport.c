@@ -2,7 +2,7 @@
 control 8 LEDs.
 The input port contains a 7 bits of data and a valid bit at bit 7. The main program
 uses the valid bit to retrive the data and convert it to hex that is output 
-to the last 8 bits of the output port that control the HEX DISPLAYS.
+to the last 8 bits of the output port that control the HEX DISPLAYS*/
 
 #include "nios2_control.h"
 
