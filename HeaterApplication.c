@@ -8,12 +8,12 @@ temperature it currently is with regard to the 2 bounds*/
 
 #define TIMER0_STATUS (volatile unsigned int*) 0x5000
 #define TIMER0_CONTROL  (volatile unsigned int*) 0x5004
-#define TIMER0_START_LO (volatile unsinged int*) 0x5008
+#define TIMER0_START_LO (volatile unsigned int*) 0x5008
 #define TIMER0_START_HI (volatile unsigned int*) 0x500C 
 
 #define TIMER1_STATUS (volatile unsigned int*) 0x6000
 #define TIMER1_CONTROL  (volatile unsigned int*) 0x6004
-#define TIMER1_START_LO (volatile unsinged int*) 0x6008
+#define TIMER1_START_LO (volatile unsigned int*) 0x6008
 #define TIMER1_START_HI (volatile unsigned int*) 0x600C 
 
 #define INPORT_DATA (volatile unsigned int*) 0x6A00
